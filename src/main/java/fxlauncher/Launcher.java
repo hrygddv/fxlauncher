@@ -160,6 +160,10 @@ public class Launcher extends Application {
 
 			try {
 				superLauncher.createApplicationEnvironment();
+
+				/*重要！！！ 当 App 为空时不执行乱七八糟的初始化逻辑，我们只需要执行自己的 command，这个一定要设置！！！*/
+				app = null;
+
 				launchAppFromManifest(filesUpdated[0]);
 			} catch (Exception ex) {
 				superLauncher.reportError(
@@ -238,6 +242,7 @@ public class Launcher extends Application {
 	}
 
 	private void startApplication() throws Exception {
+/*
 		if (app != null) {
 			Parameters appparams = app.getParameters();
 			// check if app has parameters
@@ -259,6 +264,14 @@ public class Launcher extends Application {
 			log.info(() -> String.format(Constants.getString("Application.log.Execute"), command));
 			Runtime.getRuntime().exec(command);
 		}
+*/
+		Path cacheDir = superLauncher.getManifest().resolveCacheDir(getParameters().getNamed());
+//		String fxSdkDir = superLauncher.getManifest().fxsdkDir;
+		String command = String.format("hrt-j --module-path \".\\javafx-sdk-19-x86\\lib\" --add-modules javafx.controls,javafx.fxml -cp \"%s\\*\" com.plgskyy.hospitalregistrationtool.MainApplication", cacheDir.toAbsolutePath());
+//		String command = String.format("java --module-path \"D:\\USER\\Desktop\\exe4j-test\\javafx-sdk-19-x86\\lib\" --add-modules javafx.controls,javafx.fxml -cp \"%s\\*\" com.plgskyy.hospitalregistrationtool.MainApplication", cacheDir.toAbsolutePath());
+		log.info(() -> String.format(Constants.getString("Application.log.Execute"), command));
+		Runtime.getRuntime().exec(command);
+		System.exit(0);
 	}
 
 	/**

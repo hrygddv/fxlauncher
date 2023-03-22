@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Application ts="1679300498943" uri="http://127.0.0.1:8090/app/" launch="com.plgskyy.hospitalregistrationtool.MainApplication">
+    <lib file="accessors-smart.jar" checksum="1974811096" size="29524"/>
+    <lib file="activation.jar" checksum="4137659702" size="69409"/>
+    <lib file="android-json.jar" checksum="2973860415" size="18279"/>
+    <lib file="antlr.jar" checksum="3503407330" size="445288"/>
+    <lib file="apiguardian-api.jar" checksum="2511705956" size="6806"/>
+    <lib file="asm.jar" checksum="341087344" size="121790"/>
+    <lib file="aspectjweaver.jar" checksum="1395223267" size="2087074"/>
+    <lib file="assertj-core.jar" checksum="1663264396" size="5197862"/>
+    <lib file="barcodes.jar" checksum="2418960492" size="150715"/>
+    <lib file="byte-buddy-agent.jar" checksum="3868496019" size="256421"/>
+    <lib file="byte-buddy.jar" checksum="3674202636" size="3943625"/>
+    <lib file="classmate.jar" checksum="3828328068" size="67815"/>
+    <lib file="commons-io.jar" checksum="3503488178" size="214788"/>
+    <lib file="cssfx.jar" checksum="2293835608" size="48135"/>
+    <lib file="fastjson.jar" checksum="1485954323" size="184634"/>
+    <lib file="fastjson2-extension.jar" checksum="1378395452" size="91666"/>
+    <lib file="fastjson2.jar" checksum="2688266089" size="1695434"/>
+    <lib file="font-asian.jar" checksum="1043293875" size="2166158"/>
+    <lib file="forms.jar" checksum="4084147873" size="78319"/>
+    <lib file="h2.jar" checksum="2377467221" size="2543012"/>
+    <lib file="hamcrest.jar" checksum="570260895" size="123360"/>
+    <lib file="hibernate-commons-annotations.jar" checksum="1863382855" size="78948"/>
+    <lib file="hibernate-core.jar" checksum="3910776531" size="7491960"/>
+    <lib file="hibernate-validator.jar" checksum="3675138311" size="1320186"/>
+    <lib file="HikariCP.jar" checksum="3610116550" size="159222"/>
+    <lib file="hyph.jar" checksum="2321913821" size="982991"/>
+    <lib file="io.jar" checksum="2971330414" size="788884"/>
+    <lib file="istack-commons-runtime.jar" checksum="2698640252" size="29807"/>
+    <lib file="jackson-annotations.jar" checksum="1896691194" size="75717"/>
+    <lib file="jackson-core.jar" checksum="684096376" size="374895"/>
+    <lib file="jackson-databind.jar" checksum="3158983111" size="1536894"/>
+    <lib file="jackson-datatype-jdk8.jar" checksum="1243755501" size="34800"/>
+    <lib file="jackson-datatype-jsr310.jar" checksum="2523080902" size="121204"/>
+    <lib file="jackson-module-parameter-names.jar" checksum="2712618653" size="9514"/>
+    <lib file="jakarta.activation-api.jar" checksum="136312581" size="46613"/>
+    <lib file="jakarta.activation.jar" checksum="2299001371" size="68453"/>
+    <lib file="jakarta.annotation-api.jar" checksum="2670211550" size="25058"/>
+    <lib file="jakarta.persistence-api.jar" checksum="2937795398" size="164392"/>
+    <lib file="jakarta.transaction-api.jar" checksum="2472648907" size="15392"/>
+    <lib file="jakarta.validation-api.jar" checksum="753172462" size="91930"/>
+    <lib file="jakarta.xml.bind-api.jar" checksum="1057609445" size="115638"/>
+    <lib file="jandex.jar" checksum="3796032439" size="230776"/>
+    <lib file="javafx-base-win.jar" checksum="4031776436" size="750047" os="win"/>
+    <lib file="javafx-base.jar" checksum="2364491364" size="302"/>
+    <lib file="javafx-controls-win.jar" checksum="721866247" size="2511137" os="win"/>
+    <lib file="javafx-controls.jar" checksum="2701412216" size="306"/>
+    <lib file="javafx-fxml-win.jar" checksum="1393892854" size="127395" os="win"/>
+    <lib file="javafx-fxml.jar" checksum="1711293258" size="302"/>
+    <lib file="javafx-graphics-win.jar" checksum="3351142639" size="6024207" os="win"/>
+    <lib file="javafx-graphics.jar" checksum="1473529582" size="306"/>
+    <lib file="jaxb-api.jar" checksum="1213036484" size="125632"/>
+    <lib file="jaxb-core.jar" checksum="3454999524" size="255502"/>
+    <lib file="jaxb-impl.jar" checksum="3768360265" size="963660"/>
+    <lib file="jaxb-runtime.jar" checksum="2858891198" size="1019386"/>
+    <lib file="jboss-logging.jar" checksum="3138476642" size="60782"/>
+    <lib file="jna-platform.jar" checksum="2678188525" size="1356627"/>
+    <lib file="jna.jar" checksum="1557151465" size="1866196"/>
+    <lib file="json-path.jar" checksum="1051512370" size="271159"/>
+    <lib file="json-smart.jar" checksum="321783945" size="119545"/>
+    <lib file="jsonassert.jar" checksum="1449324153" size="30548"/>
+    <lib file="jul-to-slf4j.jar" checksum="1513565886" size="4519"/>
+    <lib file="junit-jupiter-api.jar" checksum="1838809167" size="193500"/>
+    <lib file="junit-jupiter-engine.jar" checksum="1096952663" size="229678"/>
+    <lib file="junit-jupiter-params.jar" checksum="4126938604" size="577338"/>
+    <lib file="junit-jupiter.jar" checksum="1948622687" size="6363"/>
+    <lib file="junit-platform-commons.jar" checksum="632074485" size="100450"/>
+    <lib file="junit-platform-engine.jar" checksum="3416336912" size="185762"/>
+    <lib file="kernel.jar" checksum="3536949298" size="1170469"/>
+    <lib file="layout.jar" checksum="198278873" size="439941"/>
+    <lib file="log4j-api.jar" checksum="1856644783" size="302511"/>
+    <lib file="log4j-to-slf4j.jar" checksum="4041757362" size="18010"/>
+    <lib file="logback-classic.jar" checksum="2828920348" size="231851"/>
+    <lib file="logback-core.jar" checksum="1218037789" size="448764"/>
+    <lib file="lombok.jar" checksum="3438371440" size="1972167"/>
+    <lib file="materialfx.jar" checksum="3475845249" size="3239078"/>
+    <lib file="mockito-core.jar" checksum="809416157" size="661924"/>
+    <lib file="mockito-junit-jupiter.jar" checksum="609413300" size="5432"/>
+    <lib file="objenesis.jar" checksum="3723596613" size="49414"/>
+    <lib file="opentest4j.jar" checksum="3387841701" size="7653"/>
+    <lib file="pdfa.jar" checksum="2501598046" size="48757"/>
+    <lib file="register-tool.jar" checksum="1876447702" size="21133406"/>
+    <lib file="sign.jar" checksum="1217731621" size="128580"/>
+    <lib file="slf4j-api.jar" checksum="2020820767" size="41125"/>
+    <lib file="snakeyaml.jar" checksum="692569598" size="331605"/>
+    <lib file="spring-aop.jar" checksum="179897382" size="382965"/>
+    <lib file="spring-aspects.jar" checksum="321098995" size="47237"/>
+    <lib file="spring-beans.jar" checksum="2585668356" size="699059"/>
+    <lib file="spring-boot-autoconfigure.jar" checksum="2902439754" size="1677768"/>
+    <lib file="spring-boot-starter-aop.jar" checksum="620273425" size="4772"/>
+    <lib file="spring-boot-starter-data-jpa.jar" checksum="2367853803" size="4758"/>
+    <lib file="spring-boot-starter-jdbc.jar" checksum="412655944" size="4769"/>
+    <lib file="spring-boot-starter-json.jar" checksum="744918580" size="4746"/>
+    <lib file="spring-boot-starter-logging.jar" checksum="2612302008" size="4761"/>
+    <lib file="spring-boot-starter-test.jar" checksum="4170490833" size="4792"/>
+    <lib file="spring-boot-starter-tomcat.jar" checksum="669820529" size="4796"/>
+    <lib file="spring-boot-starter-validation.jar" checksum="2812780705" size="4768"/>
+    <lib file="spring-boot-starter-web.jar" checksum="4054888275" size="4805"/>
+    <lib file="spring-boot-starter.jar" checksum="1989385990" size="4770"/>
+    <lib file="spring-boot-test-autoconfigure.jar" checksum="86370202" size="216371"/>
+    <lib file="spring-boot-test.jar" checksum="4155246416" size="236984"/>
+    <lib file="spring-boot.jar" checksum="832445477" size="1448948"/>
+    <lib file="spring-context.jar" checksum="2118698948" size="1275110"/>
+    <lib file="spring-core.jar" checksum="1907161261" size="1486228"/>
+    <lib file="spring-data-commons.jar" checksum="2277598172" size="1346823"/>
+    <lib file="spring-data-jpa.jar" checksum="599892601" size="387523"/>
+    <lib file="spring-expression.jar" checksum="4030215837" size="289393"/>
+    <lib file="spring-jcl.jar" checksum="1670774672" size="24438"/>
+    <lib file="spring-jdbc.jar" checksum="685754917" size="428140"/>
+    <lib file="spring-orm.jar" checksum="260030558" size="204145"/>
+    <lib file="spring-test.jar" checksum="3691926852" size="787481"/>
+    <lib file="spring-tx.jar" checksum="156540352" size="333446"/>
+    <lib file="spring-web.jar" checksum="4283528202" size="1641065"/>
+    <lib file="spring-webmvc.jar" checksum="2777626751" size="1028729"/>
+    <lib file="springboot-javafx-support.jar" checksum="3926894437" size="69469"/>
+    <lib file="styled-xml-parser.jar" checksum="3900363643" size="494826"/>
+    <lib file="svg.jar" checksum="3343092669" size="125535"/>
+    <lib file="tomcat-embed-core.jar" checksum="3820582079" size="3426297"/>
+    <lib file="tomcat-embed-el.jar" checksum="2447279138" size="256133"/>
+    <lib file="tomcat-embed-websocket.jar" checksum="4106121523" size="277275"/>
+    <lib file="txw2.jar" checksum="2219863769" size="72008"/>
+    <lib file="virtualizedfx.jar" checksum="3311050637" size="63977"/>
+    <lib file="xmlunit-core.jar" checksum="1680879980" size="173799"/>
+    <lib file="ZKFingerReader.jar" checksum="915998121" size="12203"/>
+    <updateText>正在更新中...</updateText>
+    <updateLabelStyle>-fx-font-weight: bold;</updateLabelStyle>
+    <progressBarStyle>-fx-pref-width: 200;</progressBarStyle>
+    <wrapperStyle>-fx-spacing: 10; -fx-padding: 25;</wrapperStyle>
+    <parameters>--version=1.0.0-RELEASE</parameters>
+    <cacheDir>./bin</cacheDir>
+    <acceptDowngrade>false</acceptDowngrade>
+    <stopOnUpdateErrors>true</stopOnUpdateErrors>
+    <lingeringUpdateScreen>true</lingeringUpdateScreen>
+</Application>
