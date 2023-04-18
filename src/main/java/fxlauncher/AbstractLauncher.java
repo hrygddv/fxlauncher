@@ -37,6 +37,10 @@ public abstract class AbstractLauncher<APP> {
 	protected static FXManifest manifest;
 	private String phase;
 
+	static {
+		log.addHandler(Constants.fileHandler);
+	}
+
 	/**
 	 * Make java.util.logger log to a file. Default it will log to
 	 * $TMPDIR/fxlauncher.log. This can be overriden by using comman line parameter
@@ -160,7 +164,7 @@ public abstract class AbstractLauncher<APP> {
 	}
 
 	protected void createApplicationEnvironment() throws Exception {
-		phase = Constants.getString("Application.Phase.Create"); 
+		phase = Constants.getString("Application.Phase.Create");
 
 		if (manifest == null)
 			throw new IllegalArgumentException(Constants.getString("Error.Application.Manifest.Retrieve"));

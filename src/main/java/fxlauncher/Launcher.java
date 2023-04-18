@@ -27,6 +27,10 @@ public class Launcher extends Application {
 
     private static final Logger log = Logger.getLogger("Launcher");
 
+    static {
+        log.addHandler(Constants.fileHandler);
+    }
+
     private Application app;
 
     private Stage primaryStage;
@@ -108,9 +112,9 @@ public class Launcher extends Application {
      */
     public static FXManifest checkForUpdate() throws IOException {
         // We might be called even when FXLauncher wasn't used to start the application
-		if (AbstractLauncher.manifest == null) {
-			return null;
-		}
+        if (AbstractLauncher.manifest == null) {
+            return null;
+        }
         FXManifest manifest = FXManifest.load(
             URI.create(AbstractLauncher.manifest.uri + "/app.xml"));
         return manifest.equals(AbstractLauncher.manifest) ? null : manifest;
@@ -196,16 +200,16 @@ public class Launcher extends Application {
 
         runAndWait(() -> {
             try {
-				if (showWhatsnew && superLauncher.getManifest().whatsNewPage != null) {
-					showWhatsNewDialog(superLauncher.getManifest().whatsNewPage);
-				}
+                if (showWhatsnew && superLauncher.getManifest().whatsNewPage != null) {
+                    showWhatsNewDialog(superLauncher.getManifest().whatsNewPage);
+                }
 
                 // Lingering update screen will close when primary stage is shown
                 if (superLauncher.getManifest().lingeringUpdateScreen) {
                     primaryStage.showingProperty().addListener(observable -> {
-						if (stage.isShowing()) {
-							stage.close();
-						}
+                        if (stage.isShowing()) {
+                            stage.close();
+                        }
                     });
                 } else {
                     stage.close();
@@ -243,9 +247,9 @@ public class Launcher extends Application {
     }
 
     public void stop() throws Exception {
-		if (app != null) {
-			app.stop();
-		}
+        if (app != null) {
+            app.stop();
+        }
     }
 
     private void initApplication() throws Exception {
@@ -298,9 +302,9 @@ public class Launcher extends Application {
      * @throws NullPointerException if {@code action} is {@code null}
      */
     void runAndWait(Runnable action) {
-		if (action == null) {
-			throw new NullPointerException("action");
-		}
+        if (action == null) {
+            throw new NullPointerException("action");
+        }
 
         // run synchronously on JavaFX thread
         if (Platform.isFxApplicationThread()) {

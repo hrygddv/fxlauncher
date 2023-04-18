@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Application ts="1679300498943" uri="http://127.0.0.1:8090/app/" launch="com.plgskyy.hospitalregistrationtool.MainApplication">
+<Application ts="1681176937262" uri="http://172.16.203.150:8080/download/register-tool/" launch="com.plgskyy.hospitalregistrationtool.MainApplication">
     <lib file="accessors-smart.jar" checksum="1974811096" size="29524"/>
     <lib file="activation.jar" checksum="4137659702" size="69409"/>
     <lib file="android-json.jar" checksum="2973860415" size="18279"/>
@@ -80,7 +80,7 @@
     <lib file="objenesis.jar" checksum="3723596613" size="49414"/>
     <lib file="opentest4j.jar" checksum="3387841701" size="7653"/>
     <lib file="pdfa.jar" checksum="2501598046" size="48757"/>
-    <lib file="register-tool.jar" checksum="1876447702" size="21133406"/>
+    <lib file="register-tool.jar" checksum="3899682724" size="21136296"/>
     <lib file="sign.jar" checksum="1217731621" size="128580"/>
     <lib file="slf4j-api.jar" checksum="2020820767" size="41125"/>
     <lib file="snakeyaml.jar" checksum="692569598" size="331605"/>
@@ -127,9 +127,9 @@
     <updateLabelStyle>-fx-font-weight: bold;</updateLabelStyle>
     <progressBarStyle>-fx-pref-width: 200;</progressBarStyle>
     <wrapperStyle>-fx-spacing: 10; -fx-padding: 25;</wrapperStyle>
-    <parameters>--version=1.0.0-RELEASE</parameters>
+    <parameters>--fxsdk-dir=./javafx-sdk-19-x86 --version=1.0.0-RELEASE</parameters>
     <cacheDir>./bin</cacheDir>
-    <acceptDowngrade>false</acceptDowngrade>
-    <stopOnUpdateErrors>true</stopOnUpdateErrors>
-    <lingeringUpdateScreen>true</lingeringUpdateScreen>
+    <acceptDowngrade>true</acceptDowngrade>
+    <stopOnUpdateErrors>false</stopOnUpdateErrors>
+    <lingeringUpdateScreen>false</lingeringUpdateScreen>
 </Application>
